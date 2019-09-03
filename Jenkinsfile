@@ -1,5 +1,7 @@
 pipeline {
+    /* A Declarative PIpeline */
     agent any
+
     stages {
         stage('Init') {
             steps {
@@ -14,6 +16,7 @@ pipeline {
         }
 
         stage('Deploy') {
+            /* agent section could go here as well */
             steps {
                 echo 'Code deployed.'
             }
