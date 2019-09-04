@@ -1,7 +1,5 @@
 pipeline {
-    /* A Declarative PIpeline */
     agent any
-
     stages {
         stage('Build') {
             steps {
